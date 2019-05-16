@@ -97,8 +97,7 @@ namespace loginForms
              */
 
             //Após realizar o login, abre o Menu Principal
-            FrmMain main = new FrmMain();
-            main.ShowDialog();
+            MessageBox.Show("Acesso liberado");
 
             //Após fechar o principal, finalizar o programa
             this.Close();
