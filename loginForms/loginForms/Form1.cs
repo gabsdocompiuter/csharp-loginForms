@@ -15,5 +15,11 @@ namespace loginForms
         {
             InitializeComponent();
         }
+
+        private void BtnFrmModernDark_Click(object sender, EventArgs e)
+        {
+            FrmModernDark modernDark = new FrmModernDark();
+            modernDark.ShowDialog();
+        }
     }
 }
