@@ -12,9 +12,18 @@ namespace loginForms
 {
     public partial class FrmModernDark : Form
     {
+        private const string userPlaceholder = "Usuário";
+        private const string passPlaceholder = "password";
+
         public FrmModernDark()
         {
             InitializeComponent();
+        }
+
+        private void FrmModernDark_Load(object sender, EventArgs e)
+        {
+            tbUser.Text = userPlaceholder;
+            tbPass.Text = passPlaceholder;
         }
 
         /// <summary>
@@ -36,37 +45,57 @@ namespace loginForms
             }
         }
 
-        #region Textos padrões
+        #region PlaceHolder
 
-        private void tbUser_Enter(object sender, EventArgs e)
+        /// <summary>
+        /// Remove o placeholder ao entrar no campo do usuário
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void TbUser_Enter(object sender, EventArgs e)
         {
-            if (tbUser.Text == "Usuário")
+            if (tbUser.Text == userPlaceholder)
             {
                 tbUser.Text = string.Empty;
             }
         }
 
-        private void tbUser_Leave(object sender, EventArgs e)
+        /// <summary>
+        /// Se sair do campo com ele em branco, adiciona o placeholder
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void TbUser_Leave(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(tbUser.Text))
             {
-                tbUser.Text = "Usuário";
+                tbUser.Text = userPlaceholder;
             }
         }
 
-        private void tbPass_Enter(object sender, EventArgs e)
+        /// <summary>
+        /// Remove o placeholder ao entrar no campo da senha
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void TbPass_Enter(object sender, EventArgs e)
         {
-            if (tbPass.Text == "password")
+            if (tbPass.Text == passPlaceholder)
             {
                 tbPass.Text = string.Empty;
             }
         }
 
-        private void tbPass_Leave(object sender, EventArgs e)
+        /// <summary>
+        /// Se sair do campo com ele em branco, adiciona o placeholder
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void TbPass_Leave(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(tbPass.Text))
             {
-                tbPass.Text = "password";
+                tbPass.Text = passPlaceholder;
             }
         }
 

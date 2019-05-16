@@ -71,9 +71,8 @@
             this.tbUser.Name = "tbUser";
             this.tbUser.Size = new System.Drawing.Size(268, 16);
             this.tbUser.TabIndex = 1;
-            this.tbUser.Text = "Usuário";
-            this.tbUser.Enter += new System.EventHandler(this.tbUser_Enter);
-            this.tbUser.Leave += new System.EventHandler(this.tbUser_Leave);
+            this.tbUser.Enter += new System.EventHandler(this.TbUser_Enter);
+            this.tbUser.Leave += new System.EventHandler(this.TbUser_Leave);
             // 
             // panel1
             // 
@@ -94,9 +93,8 @@
             this.tbPass.PasswordChar = '●';
             this.tbPass.Size = new System.Drawing.Size(242, 16);
             this.tbPass.TabIndex = 1;
-            this.tbPass.Text = "password";
-            this.tbPass.Enter += new System.EventHandler(this.tbPass_Enter);
-            this.tbPass.Leave += new System.EventHandler(this.tbPass_Leave);
+            this.tbPass.Enter += new System.EventHandler(this.TbPass_Enter);
+            this.tbPass.Leave += new System.EventHandler(this.TbPass_Leave);
             // 
             // panel2
             // 
@@ -183,6 +181,7 @@
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmModernDark";
+            this.Load += new System.EventHandler(this.FrmModernDark_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bViewPass)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
