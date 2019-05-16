@@ -50,8 +50,20 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmModernDark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModernDark.Designer.cs">
+      <DependentUpon>FrmModernDark.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModernDark.resx">
+      <DependentUpon>FrmModernDark.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -60,6 +72,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -70,6 +83,27 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-hidden_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_64x64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
