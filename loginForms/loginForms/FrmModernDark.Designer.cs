@@ -1,6 +1,6 @@
-﻿namespace dynamicMenu
+﻿namespace loginForms
 {
-    partial class FrmLogin
+    partial class FrmModernDark
     {
         /// <summary>
         /// Required designer variable.
@@ -109,7 +109,7 @@
             // bViewPass
             // 
             this.bViewPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bViewPass.Image = global::dynamicMenu.Properties.Resources.eye_24x24;
+            this.bViewPass.Image = global::loginForms.Properties.Resources.eye_24x24;
             this.bViewPass.Location = new System.Drawing.Point(309, 130);
             this.bViewPass.Name = "bViewPass";
             this.bViewPass.Size = new System.Drawing.Size(20, 20);
@@ -121,7 +121,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.pictureBox3.Image = global::dynamicMenu.Properties.Resources.lock_24x24;
+            this.pictureBox3.Image = global::loginForms.Properties.Resources.lock_24x24;
             this.pictureBox3.Location = new System.Drawing.Point(35, 130);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(20, 20);
@@ -132,7 +132,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.pictureBox2.Image = global::dynamicMenu.Properties.Resources.user_24x24;
+            this.pictureBox2.Image = global::loginForms.Properties.Resources.user_24x24;
             this.pictureBox2.Location = new System.Drawing.Point(35, 101);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(20, 20);
@@ -143,7 +143,7 @@
             // bClose
             // 
             this.bClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bClose.Image = global::dynamicMenu.Properties.Resources.power_24x24;
+            this.bClose.Image = global::loginForms.Properties.Resources.power_24x24;
             this.bClose.Location = new System.Drawing.Point(336, 4);
             this.bClose.Name = "bClose";
             this.bClose.Size = new System.Drawing.Size(25, 25);
@@ -154,7 +154,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::dynamicMenu.Properties.Resources.user_64x64;
+            this.pictureBox1.Image = global::loginForms.Properties.Resources.user_64x64;
             this.pictureBox1.Location = new System.Drawing.Point(156, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(64, 64);
@@ -162,7 +162,7 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // FrmLogin
+            // FrmModernDark
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -179,10 +179,10 @@
             this.Controls.Add(this.tbUser);
             this.Controls.Add(this.bLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FrmLogin";
+            this.Name = "FrmModernDark";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmLogin";
+            this.Text = "FrmModernDark";
             ((System.ComponentModel.ISupportInitialize)(this.bViewPass)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

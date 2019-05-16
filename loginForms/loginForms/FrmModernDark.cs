@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace dynamicMenu
+namespace loginForms
 {
-    public partial class FrmLogin : Form
+    public partial class FrmModernDark : Form
     {
-        public FrmLogin()
+        public FrmModernDark()
         {
             InitializeComponent();
         }
