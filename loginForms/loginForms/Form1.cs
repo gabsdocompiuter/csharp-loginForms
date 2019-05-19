@@ -21,5 +21,11 @@ namespace loginForms
             FrmModernDark modernDark = new FrmModernDark();
             modernDark.ShowDialog();
         }
+
+        private void BtnFrmZuounMenu_Click(object sender, EventArgs e)
+        {
+            FrmZuounMenu zuounMenu = new FrmZuounMenu();
+            zuounMenu.ShowDialog();
+        }
     }
 }
